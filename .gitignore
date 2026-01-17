@@ -34,8 +34,17 @@ htmlcov/
 .vscode/
 .idea/
 
-# OS
+# Streamlit (Legacy)
+app.py
+src/app.py
+.streamlit/
+
+# OS/Temp
 .DS_Store
 Thumbs.db
 node_modules
 .next
+.env*
+*.log
+dist/
+build/
