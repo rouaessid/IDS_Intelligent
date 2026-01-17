@@ -10,6 +10,11 @@ pyvenv.cfg
 
 # Data
 data/*
+!data/trained_models/
+!data/trained_models/**/*.joblib
+!data/processed/
+!data/processed/*.joblib
+data/processed/X_unscaled.joblib
 
 
 
@@ -32,3 +37,5 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+node_modules
+.next
